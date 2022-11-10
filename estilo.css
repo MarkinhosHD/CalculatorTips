@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+
+
+:root {
+    --primary-color: #00BFFF;
+    --secondary-color:rgb(128, 18, 18);
+    --tertiary-color: Gainsboro;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-size: 25px;
+    font-family: Island Moments, sans-serif;
+    
+}
+
+#container {
+    height: 585px;
+    width: 370px;
+    margin: 15px auto;
+    background: #f7f7f7;
+    box-shadow: 25px 15px 25px #000000;
+    border-radius: 20px;
+   
+}
+
+.title {
+    background: var(--tertiary-color);
+    color: var(--secondary-color);
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.tipsForm {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formInput {
+    background: white;
+    width: 40px;
+    padding: 5px 5px 8px 8px;
+}
+
+.formInput:focus{
+    border: 3px solid var(--primary-color);
+    outline: none;
+}
+
+.formSelect {
+    width: 180px;
+    padding: 05px;
+    font-size: 12px;
+}
+
+.formSubmit {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: var(--primary-color);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+    border: 1px solid gray;
+}
+
+#totalTip{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
